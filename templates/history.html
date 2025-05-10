@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Request History</title>
+</head>
+<body>
+  <h2>Resolved Requests</h2>
+  {% for id, req in requests.items() %}
+    {% if req.status == 'resolved' %}
+      <div>
+        <p><strong>Q:</strong> {{ req.question }}</p>
+        <p><strong>A:</strong> {{ req.answer }}</p>
+        <hr>
+      </div>
+    {% endif %}
+  {% endfor %}
+  <a href="/">← Back to Dashboard</a>
+</body>
+</html>

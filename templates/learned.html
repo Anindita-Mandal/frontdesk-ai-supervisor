@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Learned Answers</title>
+</head>
+<body>
+  <h2>Knowledge Base</h2>
+  {% for q, a in kb.items() %}
+    <p><strong>Q:</strong> {{ q }}<br>
+       <strong>A:</strong> {{ a }}</p>
+    <hr>
+  {% endfor %}
+  <a href="/">← Back to Dashboard</a>
+</body>
+</html>
