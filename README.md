@@ -80,16 +80,4 @@ This is a simulated AI call-handling system built using Python and Flask for the
 
 ---
 
-##  Demo Video
-
-*A 2-minute screen recording demo showing:*
-- Asking a known & unknown question
-- Supervisor resolving a help request
-- AI learning and answering it next time
-- Viewing history and knowledge base
-
- [Insert your Loom or Drive video link here]
-
----
-
 **Created by Anindita Mandal – Frontdesk.ai Assessment – May 2025**
